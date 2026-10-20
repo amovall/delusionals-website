@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from 'next';
+import type { Metadata } from 'next';
 import { Manrope } from 'next/font/google';
 import './globals.css';
 
@@ -7,11 +7,6 @@ const manrope = Manrope({ subsets: ['latin'], weight: '800', variable: '--font-m
 export const metadata: Metadata = {
   title: 'Delusionals | What if it actually happens?',
   description: 'A place for your most unlikely ideas, real-life attempts and unexpected wins.',
-};
-
-export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
