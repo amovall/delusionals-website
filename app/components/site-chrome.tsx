@@ -38,7 +38,7 @@ export function SiteFooter() {
       </nav>
     </div>
     <div className="footer-bottom page-width">
-      <div className="footer-credit"><small>© {new Date().getFullYear()} Delusionals</small><small>Developed by Amver Studio</small></div>
+      <div className="footer-credit"><small>© {new Date().getFullYear()} Delusionals</small><small>Developed by <a href="https://www.amver.studio/">Amver Studio</a></small></div>
       <nav aria-label="Legal navigation">
         <Link href="/privacy">Privacy Policy</Link>
         <Link href="/cookies">Cookies</Link>

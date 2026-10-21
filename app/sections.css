@@ -124,6 +124,7 @@ h3 { margin: 0; font-size: 22px; line-height: 1.25; letter-spacing: -.035em; }
 .footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 18px; border-top: 1px solid var(--border); color: #62626b; }
 .footer-bottom small, .back-top { font-size: 11px; }
 .footer-credit { display: grid; gap: 6px; }
+.footer-credit a { text-decoration: underline; text-underline-offset: 3px; }
 .back-top { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; }
 .legal-page { padding-block: 70px 100px; }
 .legal-top-link { margin-bottom: 38px; }
